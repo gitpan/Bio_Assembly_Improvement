@@ -24,4 +24,4 @@ ok($abacas_obj->run, 'Run the scaffolder with a dummy script');
 is(10, $abacas_obj->_count_genomic_bases('t/data/contigs_with_Ns.fa'),'Count the bases excluding N');
 
 unlink('contigs.scaffolded.fa');
-done_testing(); 
+done_testing();

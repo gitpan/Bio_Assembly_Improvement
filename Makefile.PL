@@ -21,6 +21,7 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Bio_Assembly_Improvement",
   "EXE_FILES" => [
+    "bin/descaffold_assembly",
     "bin/fill_gaps_with_gapfiller",
     "bin/improve_assembly",
     "bin/order_contigs_with_abacas",
@@ -40,7 +41,7 @@ my %WriteMakefileArgs = (
     "Moose" => 0,
     "Moose::Role" => 0
   },
-  "VERSION" => "20120918.1545",
+  "VERSION" => "20121015.0944",
   "test" => {
     "TESTS" => "t/Abacas/*.t t/FillGaps/*.t t/Overall/*.t t/Scaffold/*.t"
   }

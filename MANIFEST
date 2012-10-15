@@ -4,6 +4,7 @@ META.yml
 Makefile.PL
 README
 README.md
+bin/descaffold_assembly
 bin/fill_gaps_with_gapfiller
 bin/improve_assembly
 bin/order_contigs_with_abacas
@@ -15,6 +16,7 @@ lib/Bio/AssemblyImprovement/Abacas/Main.pm
 lib/Bio/AssemblyImprovement/FillGaps/GapFiller/Config.pm
 lib/Bio/AssemblyImprovement/FillGaps/GapFiller/Iterative.pm
 lib/Bio/AssemblyImprovement/FillGaps/GapFiller/Main.pm
+lib/Bio/AssemblyImprovement/Scaffold/Descaffold.pm
 lib/Bio/AssemblyImprovement/Scaffold/SSpace/Config.pm
 lib/Bio/AssemblyImprovement/Scaffold/SSpace/Iterative.pm
 lib/Bio/AssemblyImprovement/Scaffold/SSpace/Main.pm
@@ -26,10 +28,14 @@ t/Abacas/Main.t
 t/FillGaps/GapFillerConfig.t
 t/FillGaps/Iterative.t
 t/Overall/CheckAllModulesCompile.t
+t/Scaffold/Descaffold.t
 t/Scaffold/Iterative.t
 t/Scaffold/PreprocessInputFiles.t
 t/Scaffold/SSpaceConfig.t
 t/data/contigs.fa
+t/data/contigs.scaffolded.fa
+t/data/contigs.scaffolded.fa.descaffolded
+t/data/contigs.scaffolded.fa.descaffolded.expected
 t/data/contigs_with_Ns.fa
 t/data/expected_reference_over_multiple_lines.fa.union.fa
 t/data/forward.fastq
